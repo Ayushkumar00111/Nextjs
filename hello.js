@@ -1,9 +1,18 @@
 console.log("start")
-setTimeout(()=>{
-    console.log("timeout")
-    ,2000
+
+const promise =  new promise((response , reject)=>{
+    let status = true
+    if(status){
+        response("success")
+    }
+    else{
+        reject("error !!")
+    }
 })
-Promise.resolve().then(()=>
-    console.log("promise run")
-)
-console.log("end")
+promise
+.then((result)=>{
+    console.log(result)
+})
+.catch((error)=>{
+    console.log(error)
+})

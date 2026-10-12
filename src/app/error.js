@@ -1,5 +1,7 @@
 "use client"
+
 export default function error({error, reset}){
+
     return(
 <div>
     <h1>somethink is wrong   {error.message}</h1>

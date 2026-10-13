@@ -15,3 +15,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+export const metadata = {
+  title: "About Us",
+  description: "Learn about our company",
+};

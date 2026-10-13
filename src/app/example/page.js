@@ -1,7 +1,14 @@
 import { NextResponse } from "next/server";
 
 export const instant=false
-
+export async function generateMetadata() {
+    const title="example"
+    const description="display kara raha hu"
+    return {
+        title:title,
+        description:description
+    }
+}
 export default async function Example(){
     let age =12
     if(age>12){
@@ -11,7 +18,12 @@ export default async function Example(){
     return(
 <div>
 
-      <h1>hello user please login </h1>
+      <h1>hello user this is exaomple </h1>
+      <h1>hello user this is exaomple </h1>
+      <h1>hello user this is exaomple </h1>
+
+      <h1>hello user this is exaomple </h1>
+      <h1>hello user this is exaomple </h1>
 </div>
 
     )

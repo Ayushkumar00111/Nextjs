@@ -6,3 +6,7 @@ export default function Login(){
              </>
     )
 }
+export const metadata = {
+  title: "login Us",
+  description: "kya hoya bachva",
+};

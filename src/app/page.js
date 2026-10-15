@@ -10,6 +10,8 @@ export default function Home() {
     <h1>
     home is sweet home 
     </h1>
+              <h1>hello ji user </h1>
+
     <h1>   <Link href={'./dashboard'}>dashboard</Link></h1>
     <h1>   <Link href={'./example'}> example</Link></h1>
 

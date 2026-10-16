@@ -4,11 +4,13 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <h1>My Website</h1>
+           <h1>My Website</h1>
         </header>
 
         {children}
 
         <footer>
+          <p>My Footer</p>
           <p>My Footer</p>
         </footer>
       </body>

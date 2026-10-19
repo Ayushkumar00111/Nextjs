@@ -7,7 +7,7 @@ export async function GET(request , {params}) {
     
     
     return Response.json({
-        message:"iam first api ",
+        message:"iam is first api ",
         result:id,
         role:role
     })

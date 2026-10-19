@@ -19,8 +19,7 @@ export default async function Example(){
 <div>
 
       <h1>hello user this is exaomple </h1>
-                <h1>hello user this is exaomple </h1>
-  <h1>hello user this is exaomple </h1>
+                
 </div>
 
     )

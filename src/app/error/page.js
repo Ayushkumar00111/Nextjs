@@ -3,7 +3,7 @@ export default function Error() {
 
   return (
     <div>
-      <h1>This page is working</h1>
+      <h1>This page  working</h1>
     </div>
   );
 }

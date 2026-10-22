@@ -3,7 +3,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <h1>My Website</h1>
+          <h1>My Website is</h1>
        
         </header>
 

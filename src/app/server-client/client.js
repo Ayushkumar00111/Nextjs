@@ -3,7 +3,7 @@
 export default function Client({ user }) {
   return (
     <div>
-      <h1>Client Header</h1>
+      <h1>Client Header is</h1>
 
       <button>Click me</button>
 

@@ -5,7 +5,7 @@ export default function Dyanmic(){
         <>
         {Gmetadata.title}
              {Gmetadata.description}
-   <a href="/dynamic/1">go to is  1</a><br></br>
+   <a href="/dynamic/1">go to is on   1</a><br></br>
    
         </>
     )

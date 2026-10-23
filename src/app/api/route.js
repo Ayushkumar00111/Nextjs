@@ -9,7 +9,7 @@ export async function GET(request) {
 export async function  POST(request) {
  const data = await request.json(); 
     return Response.json({
-        succes:"product was update",
+        succes:"product  update",
         data:data
        
     },
@@ -20,6 +20,6 @@ export async function  POST(request) {
 
 export async function  DELETE(request) {
     return Response.json({
-        succes:"product was DELTE"
+        succes:"product  DELTE"
     })
 }

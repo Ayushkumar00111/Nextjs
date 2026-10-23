@@ -1,9 +1,9 @@
 export default function Error() {
-  throw new Error("Bhai kuch error aa is gaya!");
+  throw new Error("Bhai kuch error aas gaya!");
 
   return (
     <div>
-      <h1>This page  working is </h1>
+      <h1>This page  working</h1>
     </div>
   );
 }

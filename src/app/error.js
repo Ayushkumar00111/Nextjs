@@ -4,7 +4,7 @@ export default function error({error, reset}){
 
     return(
 <div>
-    <h1>somethink error{error.message}</h1>
+    <h1>somethink is error{error.message}</h1>
    
     <button onClick={()=>reset()}>
         reset

@@ -8,7 +8,7 @@ export default function Home() {
   return (
   <div>
     <h1>
-    home sweet home 
+    home sweet home is
     </h1>
 
            

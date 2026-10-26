@@ -8,5 +8,5 @@ export default function Login(){
 }
 export const metadata = {
   title: "login Us",
-  description: "kya hoya bachva",
+  description: "kya hoya BHAI",
 };

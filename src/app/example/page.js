@@ -18,7 +18,7 @@ export default async function Example(){
     return(
 <div>
 
-      <h1>hello user oikjay</h1>
+      <h1>hello user oKAY</h1>
                 
 </div>
 
